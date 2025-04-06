@@ -1,5 +1,7 @@
 # Rubik's Cube Simulator API
 
+### v 1.0
+
 A Go-based REST API that simulates a Rubik's Cube, allowing users to perform standard cube operations, track the cube state, and reset the cube.
 
 ## Features
@@ -15,8 +17,8 @@ A Go-based REST API that simulates a Rubik's Cube, allowing users to perform sta
 
 ### Prerequisites
 
-- Go 1.13 or higher
-- Git
+- Go 1.13 or higher - https://go.dev/doc/install
+- Git - https://git-scm.com/downloads/win
 
 ### Setup
 
