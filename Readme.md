@@ -132,7 +132,23 @@ Resets the cube to its solved state.
 
 - **URL**: `/reset`
 - **Method**: `POST`
-- **Response**: Confirmation message and the reset cube state
+- **Response**:
+```
+- **Response Example**:
+```json
+{
+  "success": true,
+  "message": "Cube has been reset to solved state",
+  "cube": {
+    "up": [
+      ["white", "white", "white"],
+      ["white", "white", "white"],
+      ["orange", "orange", "orange"]
+    ],
+    ...
+    }
+}
+```
 
 ## Error Handling
 
