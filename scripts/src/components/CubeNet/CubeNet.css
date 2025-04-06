@@ -1,0 +1,39 @@
+.cube-net {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 6px;
+    margin: 20px 0;
+}
+
+.face {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #333;
+    background-color: #222;
+}
+
+.face-label {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.face-container {
+    position: relative;
+}
+
+.square {
+    width: 100%;
+    height: 100%;
+    border: 4px solid rgba(0, 0, 0, 0.7);
+}
+
