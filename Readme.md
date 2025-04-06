@@ -26,7 +26,7 @@ A Go-based REST API that simulates a Rubik's Cube, allowing users to perform sta
 git clone https://github.com/DamyanDimitrov101/rubiks-cube-simulator.git
 ```
 
-2. Navigate to the project directory:
+2. Navigate to the backend directory:
 
 ```bash
 cd rubiks-cube-simulator/backend
@@ -34,7 +34,7 @@ cd rubiks-cube-simulator/backend
 
 3. Run the server:
 
-### Run rubiks-cube-simulator.exe
+**Run rubiks-cube-simulator.exe**
 
 OR
 

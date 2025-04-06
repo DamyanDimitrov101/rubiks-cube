@@ -5,7 +5,6 @@ import (
 	"regexp"
 )
 
-// ValidateFace checks if the face is valid
 func ValidateFace(face string) error {
 	if face == "" {
 		return fmt.Errorf("face cannot be empty")
@@ -27,14 +26,11 @@ func ValidateFace(face string) error {
 	return nil
 }
 
-// ValidateNotation checks if the move notation is valid
 func ValidateNotation(notation string) error {
 	if notation == "" {
 		return fmt.Errorf("notation cannot be empty")
 	}
 
-	// Regular expression to match valid notations
-	// F, B, U, D, L, R, F', B', U', D', L', R', F2, B2, U2, D2, L2, R2
 	validPattern := regexp.MustCompile(`^[FBUDLR]('|2)?$`)
 
 	if !validPattern.MatchString(notation) {
