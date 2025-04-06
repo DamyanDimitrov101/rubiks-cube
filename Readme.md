@@ -133,7 +133,7 @@ Resets the cube to its solved state.
 - **URL**: `/reset`
 - **Method**: `POST`
 - **Response**:
-```
+```json
 - **Response Example**:
 ```json
 {
